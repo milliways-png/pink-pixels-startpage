@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "titleFont";
+    src: url("../fonts/slkscreb.ttf");
+}
+
+@font-face {
+    font-family: "bodyFont";
+    src: url("../fonts/munro.ttf");
+}
+body {
+    background: #f5e8ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 90vh;
+    font-family: "bodyFont";
+    font-size: 20px;
+    color: #8d6678;
+   background-image: url("../pictures/bg-light.png");
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.title-bar {
+    background: linear-gradient(90deg,#dbb1c5,#bd7e9e);
+    padding: 3px 2px 3px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: titleFont;
+    font-size: 10px;
+}
+
+.main-shape {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.window {
+    box-shadow: inset -1px -1px #9e7288,inset 1px 1px #dfdfdf,inset -2px -2px #ceaab9,inset 2px 2px #fff;
+    background: #e6cfd5;
+    padding: 3px;
+    margin: 20px;
+    color: #b85d88;
+}
+.window:hover {
+    transform: translateY(-0.2rem);
+}
+
+.window:hover .title-bar {
+    background: linear-gradient(90deg, #e0b6ca, #bd7e9e, #e0b6ca) repeat scroll 0% 0% / 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ul.tree-view {
+    display: block;
+    background: #f3e4e9;
+    box-shadow: inset -1px -1px #fdf2f4,inset 1px 1px #c79aa8,inset -2px -2px #dbc7d2,inset 2px 2px #bb85a2;
+    padding: 6px;
+    margin: 0;
+    font-family: bodyFont;
+    font-size: 10px;
+    width: fit-content;
+}
+
+textarea {
+    box-shadow: inset -1px -1px #fdf2f4,inset 1px 1px #c79aa8,inset -2px -2px #dbc7d2,inset 2px 2px #bb85a2;
+    background-color: #f3e4e9;
+    color: #965674;
+    font-family: bodyFont;
+    font-size: 10px;
+    padding: 10px;
+}
+
+button {
+    background: #e9d2db;
+}
+
+img {
+    width: 250px;
+    max-width: 100%;
+}
+
+.category-item:hover {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul.tree-view a {
+    color: #965674;
+}
+
+#stamps-row img {
+    padding: 0px 5px;
+}
