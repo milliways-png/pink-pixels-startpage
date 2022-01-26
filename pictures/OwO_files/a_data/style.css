@@ -8,7 +8,7 @@
     src: url("../fonts/munro.ttf");
 }
 body {
-    background: #f5e8e8;
+    background: #f5e8ec;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,7 +17,7 @@ body {
     height: 90vh;
     font-family: "bodyFont";
     font-size: 20px;
-    color: #8d666c;
+    color: #8d6678;
    background-image: url("../pictures/bg-light.png");
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .title-bar {
-    background: linear-gradient(90deg,#dbb1b1,#bd7e89);
+    background: linear-gradient(90deg,#dbb1c5,#bd7e9e);
     padding: 3px 2px 3px 3px;
     display: flex;
     justify-content: space-between;
@@ -53,18 +53,18 @@ body {
 }
 
 .window {
-    box-shadow: inset -1px -1px #9e727c,inset 1px 1px #dfdfdf,inset -2px -2px #ceaaad,inset 2px 2px #fff;
-    background: #e6cfcf;
+    box-shadow: inset -1px -1px #9e7288,inset 1px 1px #dfdfdf,inset -2px -2px #ceaab9,inset 2px 2px #fff;
+    background: #e6cfd5;
     padding: 3px;
     margin: 20px;
-    color: #b85d74;
+    color: #b85d88;
 }
 .window:hover {
     transform: translateY(-0.2rem);
 }
 
 .window:hover .title-bar {
-    background: linear-gradient(90deg, #e2bebe, #bd7e89, #e2bebe) repeat scroll 0% 0% / 400% 400%;
+    background: linear-gradient(90deg, #e0b6ca, #bd7e9e, #e0b6ca) repeat scroll 0% 0% / 400% 400%;
     animation: gradient 8s ease infinite;
 }
 @keyframes gradient {
@@ -80,26 +80,26 @@ body {
 }
 ul.tree-view {
     display: block;
-    background: #f3e4e4;
-    box-shadow: inset -1px -1px #fdf2f4,inset 1px 1px #c79a9a,inset -2px -2px #dbc7cc,inset 2px 2px #bb858e;
+    background: #f3e4e9;
+    box-shadow: inset -1px -1px #fdf2f4,inset 1px 1px #c79aa8,inset -2px -2px #dbc7d2,inset 2px 2px #bb85a2;
     padding: 6px;
     margin: 0;
     font-family: bodyFont;
     font-size: 10px;
-    width: -moz-available;
+    width: fit-content;
 }
 
 textarea {
-    box-shadow: inset -1px -1px #fdf2f4,inset 1px 1px #c79aa0,inset -2px -2px #dbc7ca,inset 2px 2px #bb8591;
-    background-color: #f3e4e4;
-    color: #96565e;
+    box-shadow: inset -1px -1px #fdf2f4,inset 1px 1px #c79aa8,inset -2px -2px #dbc7d2,inset 2px 2px #bb85a2;
+    background-color: #f3e4e9;
+    color: #965674;
     font-family: bodyFont;
     font-size: 10px;
     padding: 10px;
 }
 
 button {
-    background: #e9d2d2;
+    background: #e9d2db;
 }
 
 img {
@@ -116,7 +116,7 @@ li {
 }
 
 ul.tree-view a {
-    color: #96565b;
+    color: #965674;
 }
 
 #stamps-row img {
