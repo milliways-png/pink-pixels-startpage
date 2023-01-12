@@ -1,2 +1,2 @@
 # pink-pixels-startpage
-Another one of these. Yep.
+retro-inspired pixelart startpage in pink pastel tones 🌸
